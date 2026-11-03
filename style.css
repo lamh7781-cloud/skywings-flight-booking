@@ -1,0 +1,95 @@
+:root {
+  --skywings-blue: #1769e0;
+  --skywings-navy: #102a56;
+}
+
+body {
+  color: var(--skywings-navy);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.navbar-brand {
+  color: var(--skywings-navy);
+  font-size: 1.5rem;
+  font-weight: 750;
+  letter-spacing: -0.04em;
+}
+
+.brand-mark {
+  color: var(--skywings-blue);
+}
+
+.hero {
+  min-height: 620px;
+  padding: 5rem 0 6rem;
+  background:
+    radial-gradient(ellipse at 82% 18%, rgba(119, 190, 255, 0.38), transparent 34%),
+    linear-gradient(135deg, #f1f8ff 0%, #e4f1ff 52%, #f8fbff 100%);
+}
+
+.hero-kicker {
+  color: var(--skywings-blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  max-width: 760px;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1.08;
+}
+
+.search-card {
+  border: 1px solid rgba(16, 42, 86, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 1.25rem 3.5rem rgba(22, 65, 123, 0.12);
+}
+
+.flight-card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.flight-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.75rem 1.5rem rgba(16, 42, 86, 0.1) !important;
+}
+
+.form-label {
+  color: #536681;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.form-control {
+  min-height: 3.25rem;
+  border-color: #dce5f0;
+}
+
+.form-control:focus {
+  border-color: var(--skywings-blue);
+  box-shadow: 0 0 0 0.2rem rgba(23, 105, 224, 0.14);
+}
+
+.btn-skywings {
+  min-height: 3.25rem;
+  background-color: var(--skywings-blue);
+  border-color: var(--skywings-blue);
+  font-weight: 650;
+}
+
+.btn-skywings:hover {
+  background-color: #0e56c0;
+  border-color: #0e56c0;
+}
+
+@media (max-width: 575.98px) {
+  .hero {
+    min-height: auto;
+    padding: 3.5rem 0 4rem;
+  }
+}
