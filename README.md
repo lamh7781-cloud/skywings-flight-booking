@@ -4,7 +4,7 @@
 
   Sinh viên thực hiện: Huỳnh Hữu Lam
  
-  Giảng viên hướng dẫn:** Thầy Trần Văn Hùng
+  Giảng viên hướng dẫn: Thầy Trần Văn Hùng
 
   Công nghệ sử dụng : HTML/CSS, JavaScript, Bootstrap 5, PHP (Laravel Framework), MySQL
   
